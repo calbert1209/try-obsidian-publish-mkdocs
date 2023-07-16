@@ -12,7 +12,7 @@ $$
 \lambda^{\epsilon}
 $$
 
-```mermaid
+```diagram
 flowchart LR
 
 A --> B
