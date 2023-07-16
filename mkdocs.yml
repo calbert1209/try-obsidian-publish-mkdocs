@@ -4,6 +4,7 @@ theme:
     name: 'material'
     icon:
       logo: material/compost
+    favicon: images/compost.png
     font: 
       text: IBM Plex Serif
       code: IBM Plex Mono
