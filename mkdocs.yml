@@ -3,7 +3,7 @@ site_name: obsidian-mkdocs template
 theme:
     name: 'material'
     icon:
-      logo: material/hand_bones
+      logo: material/compost
     font: 
       text: IBM Plex Serif
       code: IBM Plex Mono
