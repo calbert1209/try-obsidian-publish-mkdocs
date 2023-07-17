@@ -3,12 +3,16 @@
   src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 }
 
+:root>* {
+  --md-mermaid-font-family: 'IBM Plex Sans', sans-serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 700;
 }
 
-article.md-content__inner > .md-typeset h1, 
-article.md-content__inner > .md-typeset h2 {
+.md-typeset h1, 
+.md-typeset h2 {
   font-weight: 700;
 }
