@@ -8,6 +8,8 @@ theme:
     font: 
       text: IBM Plex Serif
       code: IBM Plex Mono
+    features:
+      - navigation.tabs
 
     palette:
 
@@ -33,11 +35,14 @@ theme:
 markdown_extensions:
   - footnotes
   - admonition
-  # - attr_list
+  - attr_list
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.superfences
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   # - pymdownx.magiclink
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -59,8 +64,7 @@ markdown_extensions:
 
 plugins:
   - search
-  - roamlinks 
-
+  - roamlinks
 
 extra_javascript:
   - javascripts/mathjax.js
